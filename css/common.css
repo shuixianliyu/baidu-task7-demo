@@ -1,0 +1,40 @@
+/*设置通用样式*/
+*,
+::before,
+::after{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    /* 统一设置文字  sans-serif 移动端 的默认字体 */
+    font-family: "Microsoft Yahei";
+}
+/* 去掉小圆点 */
+ol,ul{
+    list-style: none;
+}
+/* a标签的下划线 */
+a{
+    display: block;
+    text-decoration: none;
+}
+/* input标签 去掉默认样式 */
+input{
+    border: none;
+    -webkit-appearance: none;
+}
+.f_l{
+    float:left;
+}
+.f_r{
+    float: right;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    display:block;
+    line-height;0;
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
