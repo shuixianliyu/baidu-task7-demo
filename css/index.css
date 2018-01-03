@@ -56,6 +56,7 @@
     height: 692px;
     background-image:url(../images/banner.jpg);
     background-size:cover;
+    overflow: hidden;
 }
 .banner .text {
     width: 100%;
@@ -131,7 +132,7 @@
     background: url(../images/3-1.jpg) no-repeat;
     background-size: cover;
 }
-.main_content3 div {
+.main_content3 .color {
     height: 100%;
     background-color: rgba(215, 59, 50, 0.2);
     overflow: hidden;
@@ -158,3 +159,371 @@
     font: 12px "Microsoft Yahei";
     color: #fff;
 }
+.main_content3 .city {
+    width: 1028px;
+    margin:0 auto;
+}
+.main_content3 .city div {
+    width: 236px;
+    height: 36px;
+    margin-right: 28px;
+    overflow: hidden;
+}
+.main_content3 .city div:nth-child(-n+3) span {
+    display:block;
+    width: 218px;
+    height: 18px;
+    padding: 9px;
+    font: 12px "Microsoft Yahei";
+    color: #89898a;
+    background: url(../images/click-more.png) no-repeat 207px center;
+    background-color: #fff;
+
+}
+.main_content3 .city div:nth-child(-n+3) ul li {
+    width: 206px;
+    height: 25px;
+    padding-left: 30px;
+    background-color: #e3e2e4;
+    font: 12px "Microsoft Yahei";
+    color: #89898a;
+}
+.main_content3 .city div:nth-child(-n+3) ul li:hover{
+    background-color: #be4e48;
+}
+
+.main_content3 .city input {
+    width: 236px;
+    height: 36px;
+    background-color: #be4e48;
+    color: #FFFFFF;
+}
+
+/*main_content4*/
+.main_content4 {
+    height: 392px;
+    background-color: #f7f7f7;
+    padding-top: 102px;
+    padding-bottom: 112px;
+}
+.main_content4 .photo {
+    width:986px;
+    height: 392px;
+    margin: 0 auto;
+}
+.main_content4 .photo div {
+    height: 392px;
+}
+.main_content4 .photo div:nth-child(-n+3) {
+    margin-right: 38px;
+}
+.main_content4 .photo div img {
+    /*display: inline-block;*/
+    width: 200px;
+    padding: 12px 8px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+.main_content4 .photo div p {
+    font-size: 12px;
+    text-align: center;
+    color:#b5b7bb;
+}
+.main_content4 .photo div p span {
+    color: #646464;
+}
+.main_content4 .photo div:nth-child(2) p span {
+    font-size: 20px;
+    letter-spacing: 32px;
+    /*字体对齐问题*/
+}
+/*.main_content5*/
+.main_content5 {
+    height: 566px;
+}
+.main_content5 .f_l {
+    width: 66.66666%;
+    height: 566px;
+    background:url("../images/5-1.jpg") no-repeat left;
+    background-size: cover;
+}
+.main_content5 .f_l p {
+    color: #FFFFFF;
+    text-align: center;
+}
+.main_content5 .f_l p:nth-child(1) {
+    margin-top: 132px;
+    margin-bottom: 20px;
+    font-size: 49.47px;
+    line-height: 48px;
+}
+.main_content5 .f_l p:nth-child(2) {
+    font-size: 157.79px;
+    line-height:107px ;
+    margin-bottom: 38px;
+}
+.main_content5 .f_l p:last-child {
+    font-size: 21.91px;
+    line-height: 42px;
+}
+.main_content5 .f_r {
+    width: 33.33334%;
+    height: 566px;
+}
+.main_content5 .f_r p:nth-child(1) {
+    margin-top: 166px;
+    text-align: center;
+    font: 20px "Microsoft Yahei";
+}
+.main_content5 .f_r p:nth-child(1) span {
+    font-size: 20px;
+    color: #e74f4d;
+}
+.main_content5 .f_r p:nth-child(2) {
+    width: 288px;
+    margin:20px auto 54px;
+    font:12px/30px "宋体";
+    color:#b5b7bb;
+}
+.main_content5 .f_r a {
+    width: 104px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #e74f4d;
+    font-size: 12px;
+    color: #e74f4d;
+    text-align: center;
+    line-height: 30px;
+}
+.main_content5 .f_r ul {
+    width: 65px;
+    height: 13px;
+    margin: 26px auto;
+}
+.main_content5 ul li {
+    float: left;
+    width: 11px;
+    height: 11px;
+    border-radius: 6px;
+    border:1px solid #f0362c;
+}
+.main_content5 .f_r ul li:nth-child(-n+2) {
+    margin-right: 13px;
+}
+.main_content5 .f_r ul li:nth-child(1) {
+    background-color: #8d8d8d;
+}
+.main_content6 {
+    height: 520px;
+}
+.main_content6 .f_l {
+    width: 33.33333%;
+    height: 520px;
+}
+.main_content6 div:first-child {
+    background-color: #e7504d;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main_content6 div:first-child p {
+    margin-top: 172px;
+    margin-bottom: 22px;
+    font:21px/32px "黑体";
+}
+.main_content6 div:first-child hr {
+    width: 30px;
+    margin: 0 auto;
+    border: none;
+    border-top: 2px solid #fff;
+}
+.main_content6 div:first-child a {
+    width: 170px;
+    height: 40px;
+    margin: 22px auto;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+.main_content6 div:nth-child(2) {
+    background-color: #ffffff;
+    text-align: center;
+}
+.main_content6 div:nth-child(2) p {
+    margin-top: 172px;
+    margin-bottom: 22px;
+    font:21px/32px "黑体";
+}
+.main_content6 div:nth-child(2) hr {
+    width: 30px;
+    margin: 0 auto;
+    border: none;
+    border-top: 2px solid #aaa;
+}
+.main_content6 div:nth-child(2) a {
+    width: 170px;
+    height: 40px;
+    margin: 22px auto;
+    border: 1px solid #e7504d;
+    text-align: center;
+    color:#e7504d;
+    line-height: 40px;
+}
+.main_content6 .f_r{
+    width: 33.33334%;
+    height: 520px;
+    background: url(../images/5-2.jpg) no-repeat;
+    background-size: cover;
+}
+.main_content6 .f_r .cover {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(155,153,153,0.4);
+}
+.main_content7 {
+    height: 750px;
+    overflow: hidden;
+}
+.main_content7 .top {
+    margin-top: 118px;
+}
+.main_content7 .top p:first-child {
+    margin-bottom: 10px;
+    font:21px "黑体";
+    text-align: center;
+    color:#6d6e6e;
+}
+.main_content7 .top hr{
+    width:30px;
+    margin: 0 auto;
+    border: none;
+    border-top: 2px solid #e74f4d;
+}
+.main_content7 .top p:last-child {
+    font:12px/18px "Microsoft Yahei";
+    text-align: center;
+    color:#b0b0b0;
+    margin-top: 16px;
+    margin-bottom: 110px;
+}
+.main_content7 .bottom {
+    width: 1002px;
+    margin: 0 auto;
+}
+.main_content7 .bottom .f_l dl {
+    width: 288px;
+}
+.main_content7 .bottom .f_l dl dt {
+    font:14px "黑体";
+    color: rgba( 35, 24, 21, 0.8 );
+    margin-bottom: 15px;
+}
+.main_content7 .bottom .f_l dl dd {
+    font:12px/21px "宋体";
+    color: #bcbbba;
+}
+.main_content7 .bottom .f_l dl dt:nth-child(4) {
+    margin-top: 38px;
+}
+.main_content7 .bottom .f_l dl dt:nth-child(7) {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.main_content7 .bottom .f_l dl dd:nth-child(3n),
+.main_content7 .bottom .f_l dl dd:last-child {
+    text-align: right;
+    background: url(../images/clickmore.png) no-repeat 244px;
+}
+.main_content7 .bottom .f_r {
+    width: 636px;
+}
+.main_content7 .bottom .f_r input:nth-child(-n+4){
+    width: 293px;
+    height: 39px;
+    padding-left: 16px;
+    margin-bottom: 14px;
+    background-color: #ededee;
+}
+.main_content7 .bottom .f_r input:nth-child(5) {
+    width: 636px;
+    height: 120px;
+    margin-bottom: 14px;
+    background-color: #ededee;
+}
+.main_content7 .bottom .f_r input:nth-child(1),
+.main_content7 .bottom .f_r input:nth-child(3){
+    margin-right: 13px;
+}
+.main_content7 .bottom .f_r input:last-child {
+    width: 636px;
+    height: 39px;
+    background-color: #ededee;
+    font:14px "黑体";
+}
+.main_content8 {
+    width: 100%;
+    height: 360px;
+    background-color: #33363f;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.main_content8 p:first-child{
+    margin-top: 92px;
+    font:21px "黑体";
+    margin-bottom: 15px;
+}
+.main_content8 p:nth-child(2) {
+    font:12px/20px "宋体";
+    margin-bottom: 30px;
+}
+.main_content8 form input {
+    width: 420px;
+    height: 40px;
+    padding-left: 10px;
+    color: rgb( 170, 170, 170 );
+}
+.main_content8 form button {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    margin-left: -5px;
+    background-color: #6f7178;
+    color: #fff;
+}
+.main_content8 .icon {
+    margin-top: 38px;
+}
+.main_content8 .icon a {
+    display: inline-block;
+}
+.main_content8 .icon a:nth-child(-n+2) {
+    margin-right: 27px;
+}
+.main_content8 .icon a:nth-child(3) {
+    margin-right: 22px;
+}
+.footer {
+    width: 100%;
+    height: 28px;
+    padding-top: 30px;
+    background-color: #2f3039;
+    color: #fff;
+}
+.footer span {
+    display: inline-block;
+    margin-left: 100px;
+    font:12px "宋体";
+}
+.footer a{
+    margin-right: 40px;
+    font:12px "宋体";
+}
+.footer a:link {
+    color: #fff;
+}
+.footer a:visited {
+    color: #fff;
+}
+
+
