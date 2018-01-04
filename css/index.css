@@ -242,6 +242,7 @@
     height: 566px;
 }
 .main_content5 .f_l {
+    position: relative;
     width: 66.66666%;
     height: 566px;
     background:url("../images/5-1.jpg") no-repeat left;
@@ -265,6 +266,15 @@
 .main_content5 .f_l p:last-child {
     font-size: 21.91px;
     line-height: 42px;
+}
+.main_content5 .f_l span {
+    position: absolute;
+    top: 269px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 14px solid transparent;
+    border-right:24px solid #fff ;
 }
 .main_content5 .f_r {
     width: 33.33334%;
@@ -370,6 +380,7 @@
     line-height: 40px;
 }
 .main_content6 .f_r{
+    position: relative;
     width: 33.33334%;
     height: 520px;
     background: url(../images/5-2.jpg) no-repeat;
@@ -379,6 +390,15 @@
     width: 100%;
     height: 100%;
     background-color:rgba(155,153,153,0.4);
+}
+.main_content6 .f_r span {
+    position: absolute;
+    top: 246px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 14px solid transparent;
+    border-left:24px solid #fff ;
 }
 .main_content7 {
     height: 750px;
