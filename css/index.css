@@ -188,9 +188,11 @@
     padding-left: 30px;
     background-color: #e3e2e4;
     font: 12px "Microsoft Yahei";
+    line-height: 25px;
     color: #89898a;
 }
 .main_content3 .city div:nth-child(-n+3) ul li:hover{
+    background: url(../images/choose.png) no-repeat 8px center;
     background-color: #be4e48;
 }
 
@@ -237,7 +239,6 @@
 .main_content4 .photo div:nth-child(2) p span {
     font-size: 20px;
     letter-spacing: 32px;
-    /*字体对齐问题*/
 }
 /*.main_content5*/
 .main_content5 {
@@ -466,19 +467,26 @@
     margin-bottom: 14px;
     background-color: #ededee;
 }
-.main_content7 .bottom .f_r input:nth-child(5) {
+.main_content7 .bottom .f_r textarea:nth-child(5) {
     width: 636px;
     height: 120px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-top: 8px;
     margin-bottom: 14px;
     background-color: #ededee;
+    resize:none;
+    border: 0;
+    overflow: hidden;
 }
 .main_content7 .bottom .f_r input:nth-child(1),
 .main_content7 .bottom .f_r input:nth-child(3){
     margin-right: 13px;
 }
-.main_content7 .bottom .f_r input:last-child {
+.main_content7 .bottom .f_r button:last-child {
     width: 636px;
     height: 39px;
+    border: 0;
     background-color: #ededee;
     font:14px "黑体";
 }
