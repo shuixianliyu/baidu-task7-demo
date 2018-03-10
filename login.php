@@ -15,12 +15,14 @@
             <span>新世界</span>
         </div>
         <ul class="f_r">
-            <li class="f_l"><a href="#">首页</a></li>
+            <li class="f_l"><a href="index.html">首页</a></li>
             <li class="f_l"><a href="#">最新活动</a></li>
             <li class="f_l"><a href="#">项目介绍</a></li>
             <li class="f_l"><a href="#">爱心社区</a></li>
             <li class="f_l"><a href="#">关于我们</a></li>
-            <li class="f_l"><a href="login.html">登录</a></li>
+            <li class="f_l"><a href="#"><?php
+                                          echo $_POST['userName'];
+                                           ?></a></li>
         </ul>
     </div>
     <div class="banner">
