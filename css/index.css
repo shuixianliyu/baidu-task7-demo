@@ -190,7 +190,8 @@
     margin-right: 28px;
 }
 .main_content3 .city div ul{
-    display: none;
+    height: 100px;
+    overflow: auto;
 }
 .main_content3 .city div:nth-child(-n+3) span {
     display:block;

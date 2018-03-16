@@ -5,6 +5,9 @@
     <title>百度任务七</title>
     <link href="css/index.css" type="text/css" rel="stylesheet">
     <link href="css/common.css" type="text/css" rel="stylesheet">
+    <!--[if lte IE 8]>
+    <script> src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"</script>
+    <![endif]-->
 </head>
 <body>
 <!--主容器-->
@@ -52,28 +55,14 @@
             <hr>
             <p>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
             <div class="city">
-                <div class="f_l">
+                <div class="f_l" id="country">
                     <span>中国</span>
-                    <ul>
-                        <li>中国</li>
-                        <li>美国</li>
-                    </ul>
                 </div>
-                <div class="f_l">
+                <div class="f_l" id="province">
                     <span>省份</span>
-                    <ul>
-                        <li>北京市</li>
-                        <li>天津市</li>
-                        <li>河北省</li>
-                    </ul>
                 </div>
-                <div class="f_l">
+                <div class="f_l" id="area">
                     <span>城市</span>
-                    <ul>
-                        <li>海淀区</li>
-                        <li>朝阳区</li>
-                        <li>东城区</li>
-                    </ul>
                 </div>
                 <input type="button" value="搜索">
             </div>
@@ -175,6 +164,23 @@
     </div>
 </div>
 <script src="https://cdn.bootcss.com/jquery/1.10.1/jquery.js"></script>
-<script src="base.js"></script>
+<!-- 导入js插件 模板插件-->
+<script type="text/javascript" src='js/template-native.js'></script>
+<!-- 定义模板 -->
+<script type="text/template" id='template'>
+<ul>
+    <%for(var i=0;i<item.length;i++){%>
+    <li data-index=<%=i%>><%=item[i].name%></li>
+    <%}%>
+</ul>
+</script>
+<script type="text/template" id='template2'>
+    <ul>
+        <%for(var i=0;i<item.length;i++){%>
+        <li><%=item[i].name%></li>
+        <%}%>
+    </ul>
+</script>
+<script src="js/base.js"></script>
 </body>
 </html>
