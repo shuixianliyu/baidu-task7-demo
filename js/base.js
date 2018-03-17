@@ -15,7 +15,7 @@
         }else {
             $.ajax({
                 url: 'province.php',
-                type: 'POST',
+                type: 'get',
                 success: function (data) {
                     var obj={
                         item:data
