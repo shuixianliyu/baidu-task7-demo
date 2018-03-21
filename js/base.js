@@ -15,6 +15,7 @@
         }else {
             $.ajax({
                 url: 'province.php',
+contentType:'application/x-www-form-urlencoded',
                 type: 'get',
                 success: function (data) {
                     var obj={
