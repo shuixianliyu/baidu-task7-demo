@@ -15,8 +15,7 @@
         }else {
             $.ajax({
                 url: 'province.php',
-contentType:'application/x-www-form-urlencoded',
-                type: 'get',
+                type: 'post',
                 success: function (data) {
                     var obj={
                         item:data
@@ -45,7 +44,7 @@ contentType:'application/x-www-form-urlencoded',
                    if($arrcity[i]===$current.index){
                        $.ajax({
                            url: 'area.php',
-                           type: 'get',
+                           type: 'post',
                            success: function (data) {
                                var arr=data.city[0].area;
                                renderlist(arr);
@@ -58,7 +57,7 @@ contentType:'application/x-www-form-urlencoded',
                }
                 $.ajax({
                     url: 'area.php',
-                    type: 'get',
+                    type: 'post',
                     success: function (data) {
                         var $arr=data.city;
                         var obj={
