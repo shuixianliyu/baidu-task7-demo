@@ -14,7 +14,7 @@
             $(this).find('ul').remove();
         }else {
             $.ajax({
-                url: 'province.php',
+                url: 'https://shuixianliyu.github.io/baidu-task7-demo/province.php',
                 type: 'post',
                 success: function (data) {
                     var obj={
