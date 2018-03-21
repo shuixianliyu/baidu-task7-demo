@@ -15,7 +15,7 @@
         }else {
             $.ajax({
                 url: 'province.php',
-                type: 'post',
+                type: 'get',
                 success: function (data) {
                     var obj={
                         item:data
@@ -44,7 +44,7 @@
                    if($arrcity[i]===$current.index){
                        $.ajax({
                            url: 'area.php',
-                           type: 'post',
+                           type: 'get',
                            success: function (data) {
                                var arr=data.city[0].area;
                                renderlist(arr);
@@ -57,7 +57,7 @@
                }
                 $.ajax({
                     url: 'area.php',
-                    type: 'post',
+                    type: 'get',
                     success: function (data) {
                         var $arr=data.city;
                         var obj={
