@@ -5,6 +5,7 @@
 
 //监听打开列表事件
     $('#province').click(function (e) {
+e.preventDefault(); 
         //显示ul选择城市
         if($(this).find('ul').is(':visible')){
             //e.target是触发事件的元素,利用冒泡
@@ -15,7 +16,7 @@
         }else {
             $.ajax({
                 url: 'data/sec.json',
-                type: 'post',
+                type: 'get',
                 success: function (data) {
                     var obj={
                         item:data
@@ -44,7 +45,7 @@
                    if($arrcity[i]===$current.index){
                        $.ajax({
                            url: 'area.php',
-                           type: 'post',
+                           type: 'get',
                            success: function (data) {
                                var arr=data.city[0].area;
                                renderlist(arr);
@@ -57,7 +58,7 @@
                }
                 $.ajax({
                     url: 'area.php',
-                    type: 'post',
+                    type: 'get',
                     success: function (data) {
                         var $arr=data.city;
                         var obj={
