@@ -5,7 +5,7 @@
 
 //监听打开列表事件
     $('#province').click(function (e) {
-e.preventDefault(); 
+	e.preventDefault(); 
         //显示ul选择城市
         if($(this).find('ul').is(':visible')){
             //e.target是触发事件的元素,利用冒泡
@@ -31,6 +31,7 @@ e.preventDefault();
         }
     });
     $('#area').click(function (e) {
+	e.preventDefault(); 
         if($(this).find('ul').is(':visible')){
             //e.target是触发事件的元素,利用冒泡
             $area.text($(e.target).text());
