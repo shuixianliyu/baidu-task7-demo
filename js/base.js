@@ -48,9 +48,8 @@
                            url: 'area.php',
                            type: 'get',
                            success: function (data) {
-console.log(data);
-                               //var arr=data.city[0].area;
-                               //renderlist(arr);
+                               var arr=data.city[0].area;
+                               renderlist(arr);
                            },
                            dataType: 'json',
                            data:{index:$current.index}
