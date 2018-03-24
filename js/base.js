@@ -52,7 +52,7 @@
                                //renderlist(arr);
 console.log(data);
                            },
-                           //dataType: 'json',
+                           dataType: 'JSON',
                            data:{index:$current.index}
                        });
                        return false;
