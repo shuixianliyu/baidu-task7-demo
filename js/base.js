@@ -45,7 +45,7 @@
                for(var i=0;i<$arrcity.length;i++){
                    if($arrcity[i]===$current.index){
                        $.ajax({
-                           url: 'area.php',
+                           url: 'php/area.php',
                            type: 'get',
                            success: function (data) {
                                var arr=data.city[0].area;
@@ -58,7 +58,7 @@
                    }
                }
                 $.ajax({
-                    url: 'area.php',
+                    url: 'php/area.php',
                     type: 'get',
                     success: function (data) {
                         var $arr=data.city;
