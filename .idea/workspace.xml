@@ -19,7 +19,18 @@
     <favorites_list name="baidu-task7-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="area.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/area.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,13 +72,13 @@
         <option value="$PROJECT_DIR$/sec.json" />
         <option value="$PROJECT_DIR$/base.js" />
         <option value="$PROJECT_DIR$/sec.php" />
-        <option value="$PROJECT_DIR$/area.php" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/areacity.php" />
         <option value="$PROJECT_DIR$/data/sec.json" />
         <option value="$PROJECT_DIR$/js/areacity.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/area.php" />
       </list>
     </option>
   </component>
@@ -78,8 +89,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="69" />
+    <option name="x" value="121" />
+    <option name="y" value="42" />
     <option name="width" value="927" />
     <option name="height" value="744" />
   </component>
@@ -306,12 +317,12 @@
       <workItem from="1521140570447" duration="599000" />
       <workItem from="1521190270618" duration="12422000" />
       <workItem from="1521644822708" duration="596000" />
-      <workItem from="1521892821609" duration="212000" />
+      <workItem from="1521892821609" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187300000" />
+    <option name="totallyTimeSpent" value="187746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,9 +334,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="69" width="927" height="744" extended-state="1" />
+    <frame x="121" y="42" width="927" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -628,8 +640,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/area.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="19">
+          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
