@@ -1,7 +1,7 @@
 <?php
-    header('content-type:text/html; charset=utf-8');
-    $json_string = file_get_contents('data/sec.json');
-    $arr = json_decode($json_string, true);
+    header('content-type:text/html;charset=utf-8');
+    $str= file_get_contents('data/sec.json');
+    $arr= json_decode($str);
     $obj=$arr[$_GET['index']];
     echo json_encode($obj);
 ?>
