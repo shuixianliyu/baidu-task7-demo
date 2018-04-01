@@ -24,6 +24,8 @@
 }
 .header ul{
     margin-right: 66px;
+    margin-top: 0\0;
+    margin-bottom: 0\0;
 }
 .header ul li {
     margin-left:46px;
@@ -38,7 +40,7 @@
 .header ul li:nth-child(2) {
     margin-left: 28px;
 }
-.header ul li:last-child{
+.header ul li:last-child {
     margin-left: 30px;
 }
 .header ul li a:hover{
@@ -46,7 +48,7 @@
     border-bottom: 4px solid #e74f4d;
 }
 .header ul li:last-child a{
-    background: url(../images/dl.jpg) no-repeat left;
+    background:url(../images/dl.jpg) no-repeat left;
     color:#e9605e;
 }
 
@@ -54,15 +56,18 @@
 .banner {
     position: relative;
     width: 100%;
-    height: 692px;
-    background-image:url(../images/banner.jpg);
+    height: 690px;
+    background:url(../images/banner.jpg) no-repeat;
     background-size:cover;
+    /*IE8 图片不可用filter*/
+    behavior:url(htc/backgroundsize.min.htc);
     overflow: hidden;
 }
 .banner .text {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.2);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
     padding-left: 114px;
     color: #fff;
     /*嵌套盒子上边距塌陷*/
@@ -115,24 +120,29 @@
     color:#8d8d8d;
     text-align: center;
 }
-.main_content1 li:nth-child(1) {
+.main_content1 li:first-child {
     background: url(../images/ol-1.jpg) no-repeat center 45px;
 }
+
 .main_content1 li:nth-child(2) {
     background: url(../images/ol-2.jpg) no-repeat center 45px;
 }
+
 .main_content1 li:nth-child(3) {
     background: url(../images/ol-3.jpg) no-repeat center 45px;
 }
+
 .main_content1 li:nth-child(4) {
     background: url(../images/ol-4.jpg) no-repeat center 45px;
 }
+
 .main_content1 li p {
     margin-top: 130px;
 }
 .main_content1 li:nth-child(-n+3) p {
     border-right:2px solid #bbbbbb;
 }
+
 /*main_content2*/
 .main_content2 {
     width: 100%;
@@ -151,14 +161,17 @@
 .main_content3 {
     height: 340px;
     background: url(../images/3-1.jpg) no-repeat;
+    -ms-behavior: url(htc/backgroundsize.min.htc);
+    behavior:url(htc/backgroundsize.min.htc);
     background-size: cover;
 }
 .main_content3 .color {
     height: 100%;
     background-color: rgba(170,53,51,0.2);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33AA3533,endColorstr=#33AA3533);
     overflow: hidden;
 }
-.main_content3 p:nth-child(1) {
+.main_content3 p:first-child {
     margin-top: 54px;
     margin-bottom: 11px;
     text-align: center;
@@ -192,8 +205,9 @@
 .main_content3 .city div ul{
     height: 100px;
     overflow: auto;
+    overflow-x:hidden;
 }
-.main_content3 .city div:nth-child(-n+3) span {
+.main_content3 .city div span {
     display:block;
     width: 218px;
     height: 18px;
@@ -202,9 +216,8 @@
     color: #89898a;
     background: url(../images/click-more.png) no-repeat 207px center;
     background-color: #fff;
-
 }
-.main_content3 .city div:nth-child(-n+3) ul li {
+.main_content3 .city div ul li {
     width: 206px;
     height: 25px;
     padding-left: 30px;
@@ -213,7 +226,7 @@
     line-height: 25px;
     color: #89898a;
 }
-.main_content3 .city div:nth-child(-n+3) ul li:hover{
+.main_content3 .city div ul li:hover{
     background: url(../images/choose.png) no-repeat 8px center;
     background-color: #be4e48;
 }
@@ -264,31 +277,35 @@
 }
 /*.main_content5*/
 .main_content5 {
-    height: 566px;
+    height: 565px;
 }
 .main_content5 .f_l {
     position: relative;
     width: 66.66666%;
-    height: 566px;
-    background:url("../images/5-1.jpg") no-repeat left;
+    height: 565px;
+    background:url("../images/5-1.jpg") no-repeat;
     background-size: cover;
+    -ms-behavior: url(htc/backgroundsize.min.htc);
+    behavior:url(htc/backgroundsize.min.htc);
 }
 .main_content5 .f_l p {
     color: #FFFFFF;
     text-align: center;
+    font-family: "Microsoft Yahei"\0;
 }
-.main_content5 .f_l p:nth-child(1) {
+.main_content5 .f_l p:first-child {
     margin-top: 132px;
     margin-bottom: 20px;
     font-size: 49.47px;
     line-height: 48px;
+
 }
 .main_content5 .f_l p:nth-child(2) {
     font-size: 157.79px;
     line-height:107px ;
     margin-bottom: 38px;
 }
-.main_content5 .f_l p:last-child {
+.main_content5 .f_l p:nth-child(3) {
     font-size: 21.91px;
     line-height: 42px;
 }
@@ -303,14 +320,14 @@
 }
 .main_content5 .f_r {
     width: 33.33334%;
-    height: 566px;
+    height: 565px;
 }
-.main_content5 .f_r p:nth-child(1) {
+.main_content5 .f_r p:first-child {
     margin-top: 166px;
     text-align: center;
     font: 20px "Microsoft Yahei";
 }
-.main_content5 .f_r p:nth-child(1) span {
+.main_content5 .f_r p:first-child span {
     font-size: 20px;
     color: #e74f4d;
 }
@@ -335,18 +352,22 @@
     height: 13px;
     margin: 26px auto;
 }
+
+.main_content5 .f_r ul li:nth-child(-n+2) {
+    margin-right: 13px;
+}
+.main_content5 .f_r ul li:first-child {
+    margin-right: 13px;
+    background-color: #8d8d8d;
+}
 .main_content5 ul li {
     float: left;
     width: 11px;
     height: 11px;
+    /*解决IE*/
     border-radius: 6px;
+    behavior: url(htc/ie-css3.htc);
     border:1px solid #f0362c;
-}
-.main_content5 .f_r ul li:nth-child(-n+2) {
-    margin-right: 13px;
-}
-.main_content5 .f_r ul li:nth-child(1) {
-    background-color: #8d8d8d;
 }
 .main_content6 {
     height: 520px;
@@ -355,7 +376,7 @@
     width: 33.33333%;
     height: 520px;
 }
-.main_content6 div:first-child {
+.main_content6>div:first-child {
     background-color: #e7504d;
     text-align: center;
     color: #FFFFFF;
@@ -410,11 +431,14 @@
     height: 520px;
     background: url(../images/5-2.jpg) no-repeat;
     background-size: cover;
+    -ms-behavior: url(htc/backgroundsize.min.htc);
+    behavior:url(htc/backgroundsize.min.htc);
 }
 .main_content6 .f_r .cover {
     width: 100%;
     height: 100%;
     background-color:rgba(0,0,0,0.4);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
 }
 .main_content6 .f_r span {
     position: absolute;
@@ -459,37 +483,43 @@
     width: 288px;
 }
 .main_content7 .bottom .f_l dl dt {
-    font:14px "黑体";
+    font:14px/27px "黑体";
     color: rgba( 35, 24, 21, 0.8 );
-    margin-bottom: 15px;
+    opacity: 0.6\0;
+    filter: alpha(opacity=60)\0;
+    margin-bottom: 10px;
 }
 .main_content7 .bottom .f_l dl dd {
     font:12px/21px "宋体";
     color: #bcbbba;
+    margin-left: 0\0;
 }
 .main_content7 .bottom .f_l dl dt:nth-child(4) {
-    margin-top: 38px;
+    margin-top: 25px;
+    margin-bottom:17px;
 }
 .main_content7 .bottom .f_l dl dt:nth-child(7) {
-    margin-top: 15px;
-    margin-bottom: 0;
+    margin-top: 9px;
+    margin-bottom:5px;
 }
+
 .main_content7 .bottom .f_l dl dd:nth-child(3n),
 .main_content7 .bottom .f_l dl dd:last-child {
+    font:12px/19.45px "宋体";
     text-align: right;
     background: url(../images/clickmore.png) no-repeat 244px;
 }
 .main_content7 .bottom .f_r {
     width: 636px;
 }
-.main_content7 .bottom .f_r input:nth-child(-n+4){
+.main_content7 .bottom .f_r input{
     width: 293px;
     height: 39px;
     padding-left: 16px;
     margin-bottom: 14px;
     background-color: #ededee;
 }
-.main_content7 .bottom .f_r textarea:nth-child(5) {
+.main_content7 .bottom .f_r textarea {
     width: 636px;
     height: 120px;
     box-sizing: border-box;
@@ -501,11 +531,11 @@
     border: 0;
     overflow: hidden;
 }
-.main_content7 .bottom .f_r input:nth-child(1),
+.main_content7 .bottom .f_r input:first-child,
 .main_content7 .bottom .f_r input:nth-child(3){
     margin-right: 13px;
 }
-.main_content7 .bottom .f_r button:last-child {
+.main_content7 .bottom .f_r button {
     width: 636px;
     height: 39px;
     border: 0;
@@ -534,6 +564,10 @@
     height: 40px;
     padding-left: 10px;
     color: rgb( 170, 170, 170 );
+    line-height:40px\0;
+    padding-top: 0\0;
+    padding-bottom: 0\0;
+    vertical-align: middle\0;
 }
 .main_content8 form button {
     width: 80px;
@@ -542,6 +576,9 @@
     margin-left: -5px;
     background-color: #6f7178;
     color: #fff;
+    padding-top: 0\0;
+    padding-bottom: 0\0;
+    vertical-align: middle\0;
 }
 .main_content8 .icon {
     margin-top: 38px;
